@@ -1,6 +1,6 @@
 variable bucket_name {
   type = string
-  default = "trc-git-workshop-webiste-bucket"
+  default = "YourBucketName" # change this to a unique bucket name of your choice for more information look at the aws s3 documentation
 }
 
 variable "region" {
