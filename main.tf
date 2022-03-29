@@ -46,7 +46,7 @@ data "aws_iam_policy_document" "allow_access_to_index_policy" {
 
     resources = [
       aws_s3_bucket.static_website_bucket.arn,
-      "arn:aws:s3:::trc-git-workshop-webiste-bucket/index.html"
+      "arn:aws:s3:::${var.bucket_name}/index.html"
     ]
   }
 }
